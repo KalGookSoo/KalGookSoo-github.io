@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Spring Boot MSA</h1>
+    <p><code>springboot-msa</code> 프로젝트는 Spring Boot 기반의 마이크로서비스 아키텍처를 구현한 프로젝트입니다.</p>
+    <p><a href="https://github.com/users/KalGookSoo/projects/3">태스크 목록 바로가기</a></p>
+    <h2>목차</h2>
+    <ol>
+        <li><a href="#프로젝트-정보">프로젝트 정보</a></li>
+        <li><a href="#서비스-구성">서비스 구성</a></li>
+        <li><a href="#데이터베이스-세팅">데이터베이스 세팅</a></li>
+        <li><a href="#구동-절차">구동 절차</a></li>
+        <li><a href="#부록">부록</a></li>
+    </ol>
+    <h2>프로젝트 정보</h2>
+    <p>
+        <img src="https://img.shields.io/badge/language-Java-blue" alt="Language">
+        <img src="https://img.shields.io/badge/Java-17-blue" alt="Java Version">
+        <img src="https://img.shields.io/badge/build%20tool-Gradle-orange" alt="Build Tool">
+        <img src="https://img.shields.io/badge/Spring%20Boot-3.2.2-green" alt="Spring Boot Version">
+        <img src="https://img.shields.io/badge/Spring%20Cloud-2023.0.0-green" alt="Spring Cloud Version">
+        <img src="https://img.shields.io/badge/license-Apache%202.0-brightgreen" alt="License">
+    </p>
+    <h2>서비스 구성</h2>
+    <p><code>api-gateway</code>, <code>config-server</code>, <code>service-registry</code>, <code>micro-service</code> 4 종류의 서비스로 구성되어 있습니다.</p>
+    <p>분산 추적 모니터링, message-queue, event-sourcing은 추후 구현할 예정.</p>
+    <h3>서비스 목록</h3>
+    <ul>
+        <li><a href="./config-server/README.md">config-server</a></li>
+        <li><a href="./api-gateway/README.md">api-gateway</a></li>
+        <li><a href="./service-registry/README.md">service-registry</a></li>
+        <li><a href="./user/README.md">user-service</a></li>
+        <li><a href="./security/README.md">security-service</a></li>
+        <li><a href="./menu/README.md">menu-service</a></li>
+        <li><a href="./board/README.md">board-service</a></li>
+    </ul>
+</body>
+</html>
